@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Flagle</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <table class="menu-table">
+            <td class="menu-li">
+                <a href="">Inicio</a>
+            </td>
+            <td class="menu-li">
+                <a href="">Sobre nosotros</a>
+            </td>
+            <td class="menu-li">
+                <a href="">¿Cómo jugar?</a>
+            </td>
+            <td class="menu-li">
+                <a href="">Configuración</a>
+            </td>
+        </table>
+
+    </header>
+    <main>
+        <h1>Flagle</h1>
+        <p></p>
+
+        <div id="flag-container"></div>
+
+        <input type="text" id="guess" placeholder="Escribe el nombre del país">
+        <button onclick="makeGuess()">Adivinar</button>
+
+        <div class="result" id="result"></div>
+
+        <script src="scripts.js"></script>
+    </main>
+</body>
+
+</html>
